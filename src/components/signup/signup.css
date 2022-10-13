@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.signup-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.signup-container {
+    padding: 30px;
+    margin: 100px auto;
+    text-align: left;
+    border: 1px solid rgb(124, 113, 113);
+    border-radius: 5px;
+    width: 350px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.names {
+    display: flex;
+    flex-direction: row;
+}
+
+.fName {
+    margin-right: 10px;
+}
+
+input[type=email] {
+    height: 50px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    width: 100%;
+}
+
+@media screen and (max-width: 375px) {
+    .signup-form {
+        flex-wrap: wrap;
+    }
+    .signup-container {
+        flex-direction: column;
+    }
+}
